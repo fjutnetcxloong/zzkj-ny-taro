@@ -1,0 +1,61 @@
+//确认订单样式
+.order-container{
+  .at-card{
+    border: 0;
+    .at-card__header{
+      border: 0;
+    }
+  }
+  .oreder-container-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .oreder-body-left{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
+}
+//下单详情样式
+.order-detail-container{
+  .order-detail-top{
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    .time-out{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      .taro-img{
+        margin-right: 20px;
+      }
+      .timing-text2{
+        font-size: 24;
+        color: #999;
+      }
+    }
+    .btn-container{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 48px;
+      padding: 40px;
+      at-button{
+        width: 45%;
+      }
+      .at-button--secondary{
+        border-color: #eb640a;
+        color: #eb640a;
+      }
+      .at-button--primary{
+        background: #eb640a;
+        border: 0;
+        color: #fff;
+      }
+    }
+  }
+  .order-detail-mid{
+    margin-top: 20px;
+  }
+}
